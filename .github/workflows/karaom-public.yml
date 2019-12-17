@@ -51,7 +51,7 @@ jobs:
         git init
         git config --global user.email "${EMAIL}"
         git config --global user.name "Olyno"
-        git remote add origin https://${ACCESS_TOKEN}@github.com/Olyno/karaom.git
+        git remote add origin https://${ACCESS_TOKEN}@github.com/Karaom/karaom.git
         git checkout -b gh-pages
         git add .
         git commit -m "Build website"
